@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
+// Servicios
+import { BitcoinService } from './services/bitcoin.service';
 //Componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
@@ -24,7 +26,7 @@ import { MaterialModule } from './modules/material/material.module';
     AppRoutingModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [BitcoinService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
