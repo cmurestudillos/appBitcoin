@@ -1,1 +1,14 @@
-/*  */
+/* Estilo del componete */
+
+mat-toolbar {
+    background: transparent;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0%;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}

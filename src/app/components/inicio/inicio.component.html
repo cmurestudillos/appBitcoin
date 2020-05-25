@@ -1,5 +1,26 @@
 <mat-tab-group mat-align-tabs="center">
-    <mat-tab label="First">Content 1</mat-tab>
-    <mat-tab label="Second">Content 2</mat-tab>
-    <mat-tab label="Third">Content 3</mat-tab>
+    <mat-tab label="{{monedaEur.description}}">
+        <mat-card class="card">
+            <mat-card-title>
+                <img src="assets/img/euro.png" width="150" height="150" [alt]="monedaEur.description" [title]="monedaEur.description">
+            </mat-card-title>
+            <mat-card-content>
+                <mat-chip-list>
+                    <mat-chip>Valor:</mat-chip>{{monedaEur.rate}}
+                </mat-chip-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
+    <mat-tab label="{{monedaUsd.description}}">
+        <mat-card class="card">
+            <mat-card-title>
+                <img src="assets/img/dollar.png" width="150" height="150" [alt]="monedaUsd.description" [title]="monedaUsd.description">
+            </mat-card-title>
+            <mat-card-content>
+                <mat-chip-list>
+                    <mat-chip>Valor:</mat-chip>{{monedaUsd.rate}}
+                </mat-chip-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
 </mat-tab-group>

@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
+// Peticiones Http
+import { HttpClientModule } from '@angular/common/http';
 // Servicios
 import { BitcoinService } from './services/bitcoin.service';
 //Componentes
@@ -12,6 +14,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/shared/error/error.component';
 // Angular Material
 import { MaterialModule } from './modules/material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { MaterialModule } from './modules/material/material.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [BitcoinService],
   bootstrap: [AppComponent]

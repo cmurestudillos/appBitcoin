@@ -1,1 +1,30 @@
-/*  */
+/* Estilo del componente */
+
+mat-card-title {
+    float: left;
+}
+
+mat-card-content {
+    float: right;
+    margin: 50px;
+}
+
+.card {
+    width: 400px;
+    height: 150px;
+    margin: 0px auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 5px 7px 16px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 7px 16px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 7px 16px -3px rgba(0, 0, 0, 0.75);
+}
+
+mat-chip-list {
+    text-align: center !important;
+}
+
+mat-chip {
+    background: rgba(73, 155, 234, 1) !important;
+    color: white !important;
+}
