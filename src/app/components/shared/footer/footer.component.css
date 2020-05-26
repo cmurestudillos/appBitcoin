@@ -12,3 +12,7 @@ mat-toolbar {
 .fill-remaining-space {
     flex: 1 1 auto;
 }
+
+span {
+    font-size: 15px;
+}

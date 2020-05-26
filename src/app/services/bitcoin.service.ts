@@ -16,4 +16,8 @@ export class BitcoinService {
   getUSDCurerency(){
     return this._http.get('https://api.coindesk.com/v1/bpi/currentprice/USD.json');
   }
+
+  getGBPCurerency(){
+    return this._http.get('https://api.coindesk.com/v1/bpi/currentprice/GBP.json');
+  }
 }

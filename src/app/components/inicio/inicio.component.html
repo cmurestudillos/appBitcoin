@@ -23,4 +23,16 @@
             </mat-card-content>
         </mat-card>
     </mat-tab>
+    <mat-tab label="{{monedaGbp.description}}">
+        <mat-card class="card">
+            <mat-card-title>
+                <img src="assets/img/libra.png" width="150" height="150" [alt]="monedaGbp.description" [title]="monedaGbp.description">
+            </mat-card-title>
+            <mat-card-content>
+                <mat-chip-list>
+                    <mat-chip>Valor:</mat-chip>{{monedaGbp.rate}}
+                </mat-chip-list>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
 </mat-tab-group>
