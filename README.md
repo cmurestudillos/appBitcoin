@@ -1,6 +1,6 @@
-# AppBitcoin
+# Bitcoin - Angular
 
-Ejemplo de aplicacion SPA realizada en Angular, Angular Material y consumiento la API Rest CoinDesk de BitCoin.
+Ejemplo de aplicacion SPA realizada en Angular, Angular Material y consumiendo la API Rest CoinDesk de BitCoin.
 
 ## Instalar Dependencias
 - Instalar `npm install`
@@ -15,7 +15,6 @@ Ejecutar en terminal el comando `ng build` y comprobar que se ha generado el dir
 Ejecutar en terminal el comando `ng test` via [Karma](https://karma-runner.github.io).
 
 ## Genera reporte de cobertura de codigo
-
 Ejecutar en terminal el comando `ng test --code-coverage` y nos generare un directorio `coverage` con informes de cobertura de código en archivos `.html`.
 Si conseguimos mantener la cobertura de nuestro codigo entre un 60%-80%, segun la norma, esta realmente bien.
 

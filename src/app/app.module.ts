@@ -13,7 +13,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/shared/error/error.component';
 // Angular Material
-import { MaterialModule } from './modules/material/material.module';
+import { MaterialModule } from './modules/material.module';
 
 
 @NgModule({
