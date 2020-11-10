@@ -1,14 +1,11 @@
 /* Estilo del componete */
 
-mat-toolbar {
-    background: transparent;
-}
-
 .fixed {
     position: fixed;
     bottom: 0%;
 }
 
 span {
+    color: white;
     font-size: 15px;
 }
