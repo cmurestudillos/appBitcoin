@@ -4,7 +4,7 @@ import { BitcoinService } from '../../services/bitcoin.service';
 
 @Component({
   selector: 'app-inicio',
-  templateUrl: './inicio.component.html',
+  templateUrl: '../../views/inicio.component.html',
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {

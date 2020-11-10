@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-error',
-  templateUrl: './error.component.html'
+  templateUrl: '../../../views/shared/error.component.html'
 })
 export class ErrorComponent implements OnInit {
 
