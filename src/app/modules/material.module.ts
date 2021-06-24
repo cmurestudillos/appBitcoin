@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // Hammer.js - soporte para (mat-slide-toggle, mat-slider, matTooltip)
-import 'hammerjs';
+// import 'hammerjs';
 // Animaciones
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 // Componentes Material
